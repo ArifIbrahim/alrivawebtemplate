@@ -46,8 +46,9 @@
   <header class="header" data-header>
     <div class="container">
 
-      <h1>
-        <a href="#" class="logo">ALRIVA WEBCRAFT</a>
+      <h1 style="display: flex; justify-content: start; align-items: center; gap: 1;">
+        <img src="assets/images/logo/0.png" alt="alriva webcraft" style="width: 55px;">
+        <a href="#" class="logo">ALRIVA <span class="md:inline hidden">WEBCRAFT</span></a>
       </h1>
 
       <nav class="navbar" data-navbar>
@@ -67,19 +68,19 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#about" class="navbar-link" data-nav-toggler>Harga</a>
+            <a href="#harga" class="navbar-link" data-nav-toggler>Harga</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#courses" class="navbar-link" data-nav-toggler>Website</a>
+            <a href="#website" class="navbar-link" data-nav-toggler>Website</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-toggler>Portofolio</a>
+            <a href="#portofolio" class="navbar-link" data-nav-toggler>Portofolio</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#event" class="navbar-link" data-nav-toggler>Contact</a>
+            <a href="#contact" class="navbar-link" data-nav-toggler>Contact</a>
           </li>
 
         </ul>
@@ -367,7 +368,7 @@
       <!-- 
         - #PRICING
        -->
-       <div class="min-h-screen items-center">
+       <div class="min-h-screen items-center" id="harga">
         <div class="" style="padding: 0px 15px;">
             <div class="text-center font-semibold">
                 <h1 style="font-size: 50px;" class="flex justify-center gap-2">
@@ -608,7 +609,7 @@
         - #COURSE
       -->
 
-      <section class="section course" id="courses" aria-label="course"
+      <section class="section course" id="website" aria-label="course"
         style="background-image: url('./assets/images/course-bg.jpg')">
         <div class="container">
 
@@ -1028,7 +1029,7 @@
         - #CTA
       -->
 
-      <section class="section cta" aria-label="workshop" style="background-image: url('./assets/images/cta-bg.png')">
+      <section class="section cta" aria-label="workshop" style="background-image: url('./assets/images/cta-bg.png')" id="contact">
         <div class="container">
 
           <figure class="cta-banner">
@@ -1067,7 +1068,7 @@
         - #EVENT
       -->
 
-      <section class="section event" id="event" aria-label="event">
+      <section class="section event" id="portofolio" aria-label="event">
         <div class="container">
 
           <p class="section-subtitle">PORTOFOLIO KAMI</p>
