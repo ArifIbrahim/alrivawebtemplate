@@ -33,7 +33,7 @@
 
 
   <!-- FLOWBITE -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
 </head>
 
@@ -47,13 +47,13 @@
     <div class="container">
 
       <h1>
-        <a href="#" class="logo">Alriva Webcraft</a>
+        <a href="#" class="logo">ALRIVA WEBCRAFT</a>
       </h1>
 
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
-          <a href="#" class="logo">Alriva Webcraft</a>
+          <a href="#" class="logo">ALRIVA WEBCRAFT</a>
 
           <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
             <ion-icon name="close-outline"></ion-icon>
@@ -92,13 +92,13 @@
 
       <div class="header-actions">
 
-        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
-          <ion-icon name="search-outline"></ion-icon>
+        <button class="header-action-btn">
+          <ion-icon name="cart-outline"></ion-icon>
         </button>
 
-        <a href="#" class="header-action-btn login-btn">
-          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
+        <a href="auth/login.html" class="header-action-btn login-btn">
+          <ion-icon name="log-in-outline" aria-hidden="true"></ion-icon>
+          <!-- <ion-icon name="walk-outline" aria-hidden="true"></ion-icon> -->
           <span class="span">Login / Register</span>
         </a>
 
@@ -115,29 +115,6 @@
 
 
 
-
-
-  <!-- 
-    - #SEARCH BOX
-  -->
-
-  <div class="search-container" data-search-box>
-    <div class="container">
-
-      <button class="search-close-btn" aria-label="Close search" data-search-toggler>
-        <ion-icon name="close-outline"></ion-icon>
-      </button>
-
-      <div class="search-wrapper">
-        <input type="search" name="search" placeholder="Search Here..." aria-label="Search" class="search-field">
-
-        <button class="search-submit" aria-label="Submit" data-search-toggler>
-          <ion-icon name="search-outline"></ion-icon>
-        </button>
-      </div>
-
-    </div>
-  </div>
 
 
 
@@ -388,6 +365,244 @@
 
         </div>
       </section>
+
+
+
+      <!-- 
+        - #PRICING
+       -->
+       <div class="min-h-screen items-center">
+        <div class="" style="padding: 0px 15px;">
+            <div class="text-center font-semibold">
+                <h1 style="font-size: 50px;" class="flex justify-center gap-2">
+                    <span class="text-indigo-500 tracking-wide">Pricing </span>
+                    <span>Plans</span>
+                </h1>
+                <p style="font-size: 24px;" class="pt-6 text-gray-400 font-normal w-full px-8 md:w-full">
+                    Choose a plan that works best for you and your team.
+                </p>
+            </div>
+            <!-- cards -->
+            <div class="my-16 sm:flex flex-wrap justify-center items-center gap-8">
+                <!-- Basic -->
+                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6 shadow-lg rounded-lg" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;">
+                    <div class="px-6 py-8 sm:p-10 sm:pb-6">
+                        <div class="flex justify-center">
+                            <span style="font-size: 22px;" class="inline-flex px-4 py-1 rounded-full leading-5 font-semibold tracking-wide uppercase">
+                                Basic
+                            </span>
+                        </div>
+                        <div style="font-size: 40px; font-weight: bolder; margin-top: 2px;" class="text-center">
+                            Rp 99K
+                        </div>
+                    </div>
+                    <p class="text-md mt-4">
+                        Plan include :
+                    </p>
+                    <ul class="text-2xl w-full mt-6 mb-6">
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            All illimited components
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Own custom Tailwind styles
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Unlimited Templates
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Free premium dashboard
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Best ranking
+                        </li>
+                        <li class="mb-3 flex items-center opacity-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="h-10 w-10 mr-2" fill="red" viewBox="0 0 1792 1792">
+                                <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Prenium svg
+                        </li>
+                        <li class="mb-3 flex items-center opacity-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="h-10 w-10 mr-2" fill="red" viewBox="0 0 1792 1792">
+                                <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            My wife
+                        </li>
+                    </ul>
+                    <button type="button" style="font-size: 20px;" class="w-full px-3 py-3 shadow rounded-lg text-indigo-500 hover:text-white bg-white hover:bg-indigo-500 transition-colors duration-700 transform">
+                        Beli Sekarang
+                    </button>
+                </div>
+
+                <!-- Popular -->
+
+                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-indigo-500 text-white mt-6 rounded-lg" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;">
+                    <div class="px-6 py-8 sm:p-10 sm:pb-6">
+                        <div class="flex justify-center">
+                            <span style="font-size: 22px;" class="inline-flex px-4 py-1 rounded-full leading-5 font-semibold tracking-wide uppercase">
+                                Popular
+                            </span>
+                        </div>
+                        <div style="font-size: 40px; font-weight: bolder; margin-top: 2px;" class="text-center">
+                            RP 499K
+                        </div>
+                    </div>
+                    <p class="text-md mt-4">
+                        Plan include :
+                    </p>
+                    <ul class="text-2xl w-full mt-6 mb-6">
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="currentColor" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            All illimited components
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="currentColor" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Own custom Tailwind styles
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="currentColor" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Unlimited Templates
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="currentColor" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Free premium dashboard
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="currentColor" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Best ranking
+                        </li>
+                        <li class="mb-3 flex items-center opacity-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="h-10 w-10 mr-2" fill="currentColor" viewBox="0 0 1792 1792">
+                                <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Prenium svg
+                        </li>
+                        <li class="mb-3 flex items-center opacity-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="h-10 w-10 mr-2" fill="currentColor" viewBox="0 0 1792 1792">
+                                <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            My wife
+                        </li>
+                    </ul>
+                    <button type="button" style="font-size: 20px;" class="w-full px-3 py-3 shadow rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-700 transform">
+                        Beli Sekarang
+                    </button>
+                </div>
+
+                <!-- premium -->
+                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6 shadow-lg rounded-lg" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;">
+                    <div class="px-6 py-8 sm:p-10 sm:pb-6">
+                        <div class="flex justify-center">
+                            <span style="font-size: 22px;" class="inline-flex px-4 py-1 rounded-full leading-5 font-semibold tracking-wide uppercase">
+                                Premium
+                            </span>
+                        </div>
+                        <div style="font-size: 40px; font-weight: bolder; margin-top: 2px;" class="text-center">
+                            CONTACT US
+                            
+                        </div>
+                    </div>
+                    <p class="text-md mt-4">
+                        Plan include :
+                    </p>
+                    <ul class="text-2xl w-full mt-6 mb-6">
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            All illimited components
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Own custom Tailwind styles
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Unlimited Templates
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Free premium dashboard
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                            <svg class="h-10 w-10 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="green" viewBox="0 0 1792 1792">
+                                <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Best ranking
+                        </li>
+                        <li class="mb-3 flex items-center opacity-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="h-10 w-10 mr-2" fill="red" viewBox="0 0 1792 1792">
+                                <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            Prenium svg
+                        </li>
+                        <li class="mb-3 flex items-center opacity-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="h-10 w-10 mr-2" fill="red" viewBox="0 0 1792 1792">
+                                <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                                </path>
+                            </svg>
+                            My wife
+                        </li>
+                    </ul>
+                    <button type="button" style="font-size: 20px;" class="w-full px-3 py-3 shadow rounded-lg text-indigo-500 hover:text-white bg-white hover:bg-indigo-500 transition-colors duration-700 transform">
+                        Beli Sekarang
+                    </button>
+                </div>
+            </div>
+        </div>
+</div>
+
+
 
 
 
@@ -666,7 +881,7 @@
 
 
           <div class="title-wrapper">
-            <h2 class="h2 instructor-title">Alriva Webcraft's Developers</h2>
+            <h2 class="h2 instructor-title"><span style="color: #525DE0; display: inline;">Alriva Webcraft's</span> Developers</h2>
 
             <!-- <button class="btn btn-primary">View All Teachers</button> -->
           </div>

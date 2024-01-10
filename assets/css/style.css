@@ -274,7 +274,7 @@ body {
 
 .logo {
   color: var(--ultramarine-blue);
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: var(--fw-800);
 }
 
@@ -950,6 +950,12 @@ body {
 
 @media (min-width: 575px) {
 
+  .logo {
+    color: var(--ultramarine-blue);
+    font-size: 2.6rem;
+    font-weight: var(--fw-800);
+  }
+
   /**
    * CUSTOM PROPERTY
    */
@@ -1452,4 +1458,24 @@ body {
     justify-content: center;
   }
   
+}
+
+
+
+
+
+/*  */
+.detail-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.detail-text .badge {
+  background-color: var(--white);
+  color: var(--ultramarine-blue);
+  font-size: 17px;
+  font-weight: var(--fw-600);
+  padding: 4px 12px;
+  border-radius: var(--radius-4);
 }
